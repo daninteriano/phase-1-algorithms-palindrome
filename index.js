@@ -1,9 +1,18 @@
+function reverse(word){
+  return word.split('').reverse().join("");
+}
+
+
 function isPalindrome(word) {
   // Write your algorithm here
+  return word === reverse(word);
+
 }
 
 /* 
   Add your pseudocode here
+  if word is a palindrome, return true
+  if word is not a palindrome, return false
 */
 
 /*
